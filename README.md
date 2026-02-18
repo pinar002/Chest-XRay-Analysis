@@ -11,9 +11,10 @@ The project is divided into two parts to solve different medical imaging problem
 
 1. Classification: In this part, the goal is to classify X-ray images into categories (Normal vs. Pneumonia).
 denseNet.ipynb: After reading the paper "Densely Connected Convolutional Networks" (Huang et al.) i wanted to try DenseNet architecture. In DenseNet, each layer is directly connected to every other layer. This feature reuse makes it more efficient for medical images where every small detail is critical.
+
 Inception.ipynb: I wanted to try this model after reading the "Going Deeper with Convolutions". I used the upgraded InceptionV3 model to get better results.. Lung diseases appear in very different sizes on an X-ray and Inception's ability to extract features at multiple scales simultaneously makes it a perfect choice for this problem.
 
-2. Segmentation
+3. Segmentation
 In this part the goal is creating pixel level masks to show the exact location of lungs.
 AttentionUNet.ipynb: I wanted to use the U-Net model, which is a classic industry standard for medical image segmentation. Then i decided to try improved version with the attention mechanism for better results. Attention mechanism helps the model suppress the noise from backgorund and focus on important areas.
 
