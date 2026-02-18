@@ -10,6 +10,7 @@ Project Structure
 The project is divided into two parts to solve different medical imaging problems:
 
 1. Classification: In this part, the goal is to classify X-ray images into categories (Normal vs. Pneumonia).
+
 denseNet.ipynb: After reading the paper "Densely Connected Convolutional Networks" (Huang et al.) i wanted to try DenseNet architecture. In DenseNet, each layer is directly connected to every other layer. This feature reuse makes it more efficient for medical images where every small detail is critical.
 
 Inception.ipynb: I wanted to try this model after reading the "Going Deeper with Convolutions". I used the upgraded InceptionV3 model to get better results.. Lung diseases appear in very different sizes on an X-ray and Inception's ability to extract features at multiple scales simultaneously makes it a perfect choice for this problem.
