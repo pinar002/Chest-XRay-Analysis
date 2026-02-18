@@ -17,6 +17,7 @@ Inception.ipynb: I wanted to try this model after reading the "Going Deeper with
 
 3. Segmentation
 In this part the goal is creating pixel level masks to show the exact location of lungs.
+
 AttentionUNet.ipynb: I wanted to use the U-Net model, which is a classic industry standard for medical image segmentation. Then i decided to try improved version with the attention mechanism for better results. Attention mechanism helps the model suppress the noise from backgorund and focus on important areas.
 
 
